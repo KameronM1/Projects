@@ -1,0 +1,124 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* charcoal background */
+  color: #e0fbe2; /* light greenish-white for general text */
+}
+
+#welcome-section {
+  height: 100vh;
+  background: #1b372a; /* deep green background */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  color: #b8f5d1; /* mint green */
+}
+
+.title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  text-align: center;
+  color: #a8ffcc; /* bright mint title */
+}
+
+#nav-key {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 0;
+  margin: 1rem;
+  background-color: #1e1e1e; /* charcoal */
+}
+
+#nav-key ul {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #92ffa3; /* bright green links */
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #caffd0; /* mint hover */
+}
+
+#navbar {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: #1e1e1e;
+  top: 0;
+  z-index: 10;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+#project-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #101d17; /* deeper green background */
+  justify-items: center;
+  align-items: center;
+}
+
+#project-grid img {
+  width: 25rem;
+  height: 25rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  border: 3px solid #4caf50; /* green image borders */
+  box-shadow: 0 0 10px #4caf50;
+}
+
+.page-break {
+  padding-top: 80px;
+}
+
+#icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fab {
+  font-size: 3rem;
+  color: #4caf50; /* green icons */
+  transition: color 0.3s ease;
+}
+
+.fab:hover {
+  color: #caffd0; /* mint on hover */
+}
+
+.fas {
+  font-size: 3rem;
+  color: #4caf50;
+  gap:3px:
+}
+
+footer {
+  text-align:center;
+  }
+
+ #icons {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  color: #b8f5d1;
+  font-size:1rem;
+  }
